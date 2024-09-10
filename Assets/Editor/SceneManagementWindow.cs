@@ -18,6 +18,15 @@ public class SceneManagementWindow : EditorWindow
 
     private void OnGUI()
     {
+        // Wide Build Settings button
+        if (GUILayout.Button("Build Settings", GUILayout.Height(30), GUILayout.ExpandWidth(true)))
+        {
+            // Opens the Build Settings window
+            BuildPlayerWindow.ShowBuildPlayerWindow();
+        }
+
+        GUILayout.Space(20);
+
         GUILayout.Label("Assigned Scenes", EditorStyles.boldLabel);
         GUILayout.BeginVertical(GUI.skin.box);
         foreach (string scene in assignedScenes)
