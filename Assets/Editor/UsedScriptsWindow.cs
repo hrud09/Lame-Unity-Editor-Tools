@@ -13,7 +13,7 @@ public class UsedScriptsWindow : EditorWindow
     private const float BUTTON_WIDTH = 100f; // Width for each GameObject button
     private const float BUTTON_SPACING = 2f; // Space between GameObject buttons
     private const float TITLE_WIDTH = 180f; // Width for title labels
-    private const float SCROLLVIEW_MARGIN = 50f; // Margin at the bottom of the scroll view
+    private const float SCROLLVIEW_MARGIN = 105; // Margin at the bottom of the scroll view
     private const float BORDER_PADDING = 12f;
 
     // Text input for skipped scripts
@@ -44,8 +44,12 @@ public class UsedScriptsWindow : EditorWindow
     {
         GUILayout.Label("Skipped Scripts (comma or space separated):", EditorStyles.boldLabel);
 
-        // Bigger input field for skipped scripts
-        skippedScriptsInput = GUILayout.TextArea(skippedScriptsInput, GUILayout.Height(40));
+        // Dynamically calculate the height of the TextArea based on the number of lines in the input text
+        int lineCount = skippedScriptsInput.Split('\n').Length;
+        float textAreaHeight = lineCount * 15 + 30; // Each line gets roughly 20 pixels in height, minimum 40
+
+        // Bigger input field for skipped scripts, adjusting height based on text content
+        skippedScriptsInput = GUILayout.TextArea(skippedScriptsInput, GUILayout.Height(textAreaHeight));
 
         if (GUILayout.Button("Save and Refresh"))
         {
@@ -65,7 +69,7 @@ public class UsedScriptsWindow : EditorWindow
         GUILayout.Label("GAME OBJECTS", EditorStyles.boldLabel);
         GUILayout.EndHorizontal();
 
-        scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition, GUILayout.Width(position.width), GUILayout.Height(position.height - SCROLLVIEW_MARGIN - 60)); // Leave space for the floating panel
+        scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition, GUILayout.Width(position.width), GUILayout.Height(position.height - SCROLLVIEW_MARGIN - 100)); // Leave space for the floating panel
 
         // Define a custom GUI style for the clickable label
         GUIStyle clickableLabelStyle = new GUIStyle(EditorStyles.label)
@@ -127,10 +131,10 @@ public class UsedScriptsWindow : EditorWindow
             GUILayout.EndHorizontal();
         }
 
-        EditorGUILayout.EndScrollView();
 
+        EditorGUILayout.EndScrollView();
         // Floating text panel at the bottom
-        GUILayout.BeginArea(new Rect(0, position.height - 40, position.width, 50), GUI.skin.box); // Create a box area with border
+        GUILayout.BeginArea(new Rect(0, position.height - 50, position.width, 50), GUI.skin.box); // Create a box area with border
         GUILayout.Label("Guide: Click on the script names to select all GameObjects with that script. Click on GameObject buttons to select individual GameObjects.", EditorStyles.wordWrappedLabel);
         GUILayout.EndArea();
     }
