@@ -17,7 +17,7 @@ namespace FantasyUI.Editor
     public static class FantasyUIPrefabFactory
     {
         public const string RootPath = "Assets/FantasyUIKit";
-        public const string SpritesPath = RootPath + "/Art/Sprites/";
+        public const string SpritesPath = "Assets/2D Assets/UI Pack 1/";
         public const string PrefabsPath = RootPath + "/Prefabs/";
 
         public static Sprite LoadSprite(string relPath)

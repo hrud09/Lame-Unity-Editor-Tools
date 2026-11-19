@@ -42,6 +42,6 @@ MonoBehaviour:
   textDark: {r: 0.22745098, g: 0.14117648, b: 0.10980392, a: 1}
   textGold: {r: 1, g: 0.8392157, b: 0.28235295, a: 1}
   panelTint: {r: 1, g: 1, b: 1, a: 1}
-  displayFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  displayFont: {fileID: 11400000, guid: 828a05763fdf14dba9a4d2ead8fc082f, type: 2}
   displayOutlineMaterial: {fileID: 2100000, guid: 9f8ffed7312f94fd2bdc77d50cd6d11e, type: 2}
   sfxProfile: {fileID: 0}

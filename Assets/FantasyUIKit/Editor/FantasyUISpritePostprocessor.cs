@@ -9,12 +9,12 @@ namespace FantasyUI.Editor
 {
     /// <summary>
     /// Automatically configures TextureImporter settings and exact 9-slice sprite borders
-    /// from Assets/FantasyUIKit/Art/Sprites/sprite_slices.json whenever Fantasy UI sprites are imported.
+    /// from Assets/2D Assets/UI Pack 1/sprite_slices.json whenever Fantasy UI sprites are imported.
     /// </summary>
     public class FantasyUISpritePostprocessor : AssetPostprocessor
     {
-        private const string SpritesRoot = "Assets/FantasyUIKit/Art/Sprites/";
-        private const string ManifestPath = "Assets/FantasyUIKit/Art/Sprites/sprite_slices.json";
+        private const string SpritesRoot = "Assets/2D Assets/UI Pack 1/";
+        private const string ManifestPath = "Assets/2D Assets/UI Pack 1/sprite_slices.json";
 
         private static Dictionary<string, Vector4> _borderCache;
         private static DateTime _lastManifestWrite;

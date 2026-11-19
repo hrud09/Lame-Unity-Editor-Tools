@@ -100,7 +100,7 @@ namespace FantasyUI.Editor
             string outFile = EditorUtility.SaveFilePanel("Export Complete Fantasy UI Kit", "", "CompleteFantasyUIKit_v1.0", "unitypackage");
             if (string.IsNullOrEmpty(outFile)) return;
             AssetDatabase.ExportPackage(
-                new[] { "Assets/FantasyUIKit", GameplayScenePath },
+                new[] { "Assets/FantasyUIKit", "Assets/2D Assets/UI Pack 1", "Assets/Fonts/Skranji", GameplayScenePath },
                 outFile,
                 ExportPackageOptions.Recurse | ExportPackageOptions.IncludeDependencies);
             Debug.Log($"[FantasyUIKit] Exported package to: {outFile}");
@@ -137,7 +137,7 @@ namespace FantasyUI.Editor
 
         private static void EnsureLegacyUISpritesNineSliced()
         {
-            const string legacyRoot = "Assets/2d Assets/Gameplay UI Sprites/UI Sprites";
+            const string legacyRoot = "Assets/2D Assets/Gameplay UI Sprites/UI Sprites";
             if (!Directory.Exists(legacyRoot)) return;
             var guids = AssetDatabase.FindAssets("t:Texture2D", new[] { legacyRoot });
             AssetDatabase.StartAssetEditing();
@@ -177,27 +177,13 @@ namespace FantasyUI.Editor
             Directory.CreateDirectory(ThemesDir);
             Directory.CreateDirectory(MaterialsDir);
 
-            TMP_FontAsset font = TMP_Settings.defaultFontAsset;
+            TMP_FontAsset font = FantasyUIFontUpdater.EnsureSkranjiDisplayFont();
+            if (font == null)
+                font = TMP_Settings.defaultFontAsset;
             if (font == null)
                 font = AssetDatabase.LoadAssetAtPath<TMP_FontAsset>("Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset");
 
-            Material outlineMat = AssetDatabase.LoadAssetAtPath<Material>(OutlineMatPath);
-            if (outlineMat == null && font != null && font.material != null)
-            {
-                outlineMat = new Material(font.material);
-                outlineMat.name = "FantasyDisplay_Outline";
-                outlineMat.EnableKeyword("OUTLINE_ON");
-                outlineMat.EnableKeyword("UNDERLAY_ON");
-                outlineMat.SetFloat("_FaceDilate", 0.14f);
-                outlineMat.SetColor("_OutlineColor", new Color32(30, 21, 32, 255)); // #1E1520
-                outlineMat.SetFloat("_OutlineWidth", 0.24f);
-                outlineMat.SetColor("_UnderlayColor", new Color32(18, 12, 20, 225));
-                outlineMat.SetFloat("_UnderlayOffsetX", 0.25f);
-                outlineMat.SetFloat("_UnderlayOffsetY", -0.65f);
-                outlineMat.SetFloat("_UnderlayDilate", 0.25f);
-                outlineMat.SetFloat("_UnderlaySoftness", 0.12f);
-                AssetDatabase.CreateAsset(outlineMat, OutlineMatPath);
-            }
+            Material outlineMat = FantasyUIFontUpdater.EnsureAndSyncOutlineMaterial(font, OutlineMatPath);
 
             var defTheme = LoadOrCreate<UIThemeSO>(DefaultThemePath);
             defTheme.themeName = "Dark Fantasy Default";

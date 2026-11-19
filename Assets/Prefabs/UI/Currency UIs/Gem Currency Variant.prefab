@@ -12,6 +12,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gem Currency Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1605562579234212414, guid: ce130783a39d74ab99b81c714838989e, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 828a05763fdf14dba9a4d2ead8fc082f, type: 2}
+    - target: {fileID: 1605562579234212414, guid: ce130783a39d74ab99b81c714838989e, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -1581896684994133933, guid: 828a05763fdf14dba9a4d2ead8fc082f, type: 2}
     - target: {fileID: 2323973133458271050, guid: ce130783a39d74ab99b81c714838989e, type: 3}
       propertyPath: m_Color.b
       value: 1
