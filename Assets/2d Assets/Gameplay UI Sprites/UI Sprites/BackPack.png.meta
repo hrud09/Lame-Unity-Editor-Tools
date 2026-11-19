@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: c5711f15adf874d61a6c2d1bcfc236ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6110166562528806060
+    second: BackPack_0
+  - first:
+      213: -2821608605172055756
+    second: BackPack_1
+  - first:
+      213: 6464638538575703013
+    second: BackPack_2
+  - first:
+      213: 1424253222325186643
+    second: BackPack_3
+  - first:
+      213: 7724607194368384371
+    second: BackPack_4
+  - first:
+      213: -8721535290707395179
+    second: BackPack_5
+  - first:
+      213: 5935641223826343457
+    second: BackPack_6
+  - first:
+      213: -7298862701790535726
+    second: BackPack_7
+  - first:
+      213: -1149617123919104655
+    second: BackPack_8
+  - first:
+      213: 2873725891366475260
+    second: BackPack_9
+  - first:
+      213: -1932229259582820544
+    second: BackPack_10
+  - first:
+      213: 6240607963431534864
+    second: BackPack_11
+  - first:
+      213: 558872765717263677
+    second: BackPack_12
+  - first:
+      213: 1731255176015477082
+    second: BackPack_13
+  - first:
+      213: -4109901003515006347
+    second: BackPack_14
+  - first:
+      213: -4742742004574499571
+    second: BackPack_15
+  - first:
+      213: -6737095357099178326
+    second: BackPack_16
+  - first:
+      213: -8821958819095285084
+    second: BackPack_17
+  - first:
+      213: 5912146225922733939
+    second: BackPack_18
+  - first:
+      213: 1472406435006942666
+    second: BackPack_19
+  - first:
+      213: 8667154499763797974
+    second: BackPack_20
+  - first:
+      213: 4663352786331391383
+    second: BackPack_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BackPack_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 543
+        width: 95
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4cff59d1cabc450800000000000000
+      internalID: 6110166562528806060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 538
+        width: 99
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431c8815ce1a7d8d0800000000000000
+      internalID: -2821608605172055756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_2
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 534
+        width: 87
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebea1def7207b950800000000000000
+      internalID: 6464638538575703013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_3
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 535
+        width: 106
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350f5ea72c6f3c310800000000000000
+      internalID: 1424253222325186643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_4
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 535
+        width: 101
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d11c90151533b60800000000000000
+      internalID: 7724607194368384371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_5
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 537
+        width: 90
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d3a5d9cd1e6f680800000000000000
+      internalID: -8721535290707395179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_6
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 376
+        width: 111
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1268554ae32af5250800000000000000
+      internalID: 5935641223826343457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_7
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 371
+        width: 94
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df5d633b0b35ba90800000000000000
+      internalID: -7298862701790535726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_8
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 373
+        width: 91
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1757815115dbb00f0800000000000000
+      internalID: -1149617123919104655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_9
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 221
+        width: 108
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5ddb8f87681e720800000000000000
+      internalID: 2873725891366475260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_10
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 370
+        width: 105
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f23fdc9b75f25e0800000000000000
+      internalID: -1932229259582820544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_11
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 373
+        width: 114
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0118fcae0e71b9650800000000000000
+      internalID: 6240607963431534864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 219
+        width: 105
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35b733c1d381c700800000000000000
+      internalID: 558872765717263677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 213
+        width: 213
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5975f5f867a60810800000000000000
+      internalID: 1731255176015477082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_14
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 212
+        width: 106
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572777fffc2b6f6c0800000000000000
+      internalID: -4109901003515006347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_15
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 216
+        width: 95
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d430466456e2eb0800000000000000
+      internalID: -4742742004574499571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_16
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 66
+        width: 94
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa68b26a7770182a0800000000000000
+      internalID: -6737095357099178326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_17
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 61
+        width: 100
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a273bcd13b129580800000000000000
+      internalID: -8821958819095285084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 66
+        width: 90
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3777a482ba92c0250800000000000000
+      internalID: 5912146225922733939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_19
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 69
+        width: 95
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd869bf9d90f6410800000000000000
+      internalID: 1472406435006942666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_20
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 66
+        width: 83
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df79d3d81be74870800000000000000
+      internalID: 8667154499763797974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BackPack_21
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 61
+        width: 103
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7955c93d6ae87b040800000000000000
+      internalID: 4663352786331391383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BackPack_0: 6110166562528806060
+      BackPack_1: -2821608605172055756
+      BackPack_10: -1932229259582820544
+      BackPack_11: 6240607963431534864
+      BackPack_12: 558872765717263677
+      BackPack_13: 1731255176015477082
+      BackPack_14: -4109901003515006347
+      BackPack_15: -4742742004574499571
+      BackPack_16: -6737095357099178326
+      BackPack_17: -8821958819095285084
+      BackPack_18: 5912146225922733939
+      BackPack_19: 1472406435006942666
+      BackPack_2: 6464638538575703013
+      BackPack_20: 8667154499763797974
+      BackPack_21: 4663352786331391383
+      BackPack_3: 1424253222325186643
+      BackPack_4: 7724607194368384371
+      BackPack_5: -8721535290707395179
+      BackPack_6: 5935641223826343457
+      BackPack_7: -7298862701790535726
+      BackPack_8: -1149617123919104655
+      BackPack_9: 2873725891366475260
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
