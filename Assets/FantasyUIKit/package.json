@@ -1,0 +1,14 @@
+{
+  "name": "com.lame.fantasyuikit",
+  "version": "1.0.0",
+  "displayName": "Complete Fantasy UI Kit",
+  "description": "Fully functional, modular, dynamic dark-fantasy UI system & game-ready component library with live ScriptableObject theming, zero-dependency tweening, reactive data binding, Editor Builder, and full GameplayScene HUD + Modals.",
+  "unity": "6000.0",
+  "keywords": ["ui", "ugui", "fantasy", "hud", "inventory", "modal", "theme", "package"],
+  "author": {
+    "name": "Lame Unity Tools"
+  },
+  "dependencies": {
+    "com.unity.ugui": "2.0.0"
+  }
+}

@@ -1,4 +1,7 @@
 ﻿<Solution>
+  <Project Path="FantasyUI.Runtime.csproj" />
+  <Project Path="FantasyUI.Demo.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="FantasyUI.Editor.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
 </Solution>
